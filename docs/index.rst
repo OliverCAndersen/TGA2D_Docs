@@ -41,12 +41,12 @@ Supports out of the box:
 Good to know
 ^^^^^^^^^^^^^^^^^^^
 
-This engine operates in a normalized space, meaning nothing is in pixel space. 
+This engine operates in a normalized space, meaning nothing is in pixel space.
 The top-left corner of the window is position ``{x:0, y:0}``.
 The bottom-right corner of the window is position ``{x:1, y:1}``.
 You can still set positions outside of these, but then you'll need to move the "camera" to be able to see it.
 Colors are also in the normalized space ``0.0 -> 1.0``.
-You have the full source! Don't be afraid to get your hands dirty! 
+You have the full source! Don't be afraid to get your hands dirty!
 
 Keep it within The Game Assembly please.
 We want to support you here 100% at school with it.
@@ -69,18 +69,22 @@ If you are looking for an engine to release your own games with we recommend loo
 .. toctree::
 	:glob:
 	:caption: Tutorials
-	
+	:maxdepth: 1
+
 	./tutorials/*
 
 .. toctree::
 	:glob:
 	:caption: Classes
-	
+	:maxdepth: 1
+
 	./classes/*
 
 .. toctree::
 	:glob:
 	:caption: Structs
-	
+	:maxdepth: 1
+
 	./structs/*
+
 
