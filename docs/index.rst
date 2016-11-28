@@ -1,8 +1,8 @@
 Welcome to TGA2D Documentation!
-==================
+###############################
 
 Intruduction
--------------------
+************
 
 Hello and welcome to the wonderful world of 2D graphics!
 This engine is created for the purpose of having easy access to advanced rendering techniques.
@@ -11,7 +11,7 @@ The engine will be updated the more we use it and with newer tech comming.
 
 
 What is a 2D engine?
-^^^^^^^^^^^^^^^^^^^^^^
+====================
 
 A 2D engine is a framework where the developer can use interfaces and simple techniques without the knowledge of how the underlying tech works.
 To load an image and draw it on the screen is a complicated process and will take many hours to get right.
@@ -23,7 +23,7 @@ If problems would appear, we can handle it here instead of writing to the creato
 
 
 Engine specs
-^^^^^^^^^^^^^^^^^^^^^^
+============
 
 DirectX 11
 
@@ -39,7 +39,7 @@ Supports out of the box:
 
 
 Good to know
-^^^^^^^^^^^^^^^^^^^
+============
 
 This engine operates in a normalized space, meaning nothing is in pixel space.
 The top-left corner of the window is position ``{x:0, y:0}``.
@@ -57,14 +57,41 @@ Compatible operating systems: Windows 7, Windows 8.X, Windows 10
 
 
 License
-^^^^^^^^^^^^^^^^^^^^^^^^
+=======
 
 As this engine is developed here at The Game Assembly, you can not create and sell a product with TGA2D. (aka. Free for non commercial use).
 If you are looking for an engine to release your own games with we recommend looking at SDL.
 
 
+.. note:: note
 
-.. warning:: This is not even close to finished, so if you find something missing, please contribute!
+.. tip:: tip
+
+.. attention:: attention
+
+.. caution:: caution
+
+.. danger:: danger
+
+.. error:: error
+
+.. hint:: hint
+
+.. important:: important
+
+.. admonition:: generic admonition
+
+
+.. warning:: This is not even close to finished, if you feel like something's missing, then click that "Edit on GitHub" button at the top right to contribute!
+
+
+.. toctree::
+	:glob:
+	:caption: General
+	:maxdepth: 1
+
+	faq
+
 
 .. toctree::
 	:glob:
@@ -76,7 +103,7 @@ If you are looking for an engine to release your own games with we recommend loo
 .. toctree::
 	:glob:
 	:caption: Classes
-	:maxdepth: 1
+	:maxdepth: 2
 
 	./classes/*
 
@@ -86,5 +113,4 @@ If you are looking for an engine to release your own games with we recommend loo
 	:maxdepth: 1
 
 	./structs/*
-
 

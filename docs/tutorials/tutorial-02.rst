@@ -20,6 +20,7 @@ The only thing we need to do is create an instance of the class ``Tga2D::CSprite
 	:caption: GameWorld.h
 	:name: gameworld_h
 	:linenos:
+	:emphasize-lines: 5,17
 
 	#pragma once
 
@@ -39,11 +40,12 @@ The only thing we need to do is create an instance of the class ``Tga2D::CSprite
 	private:
 		Tga2D::CSprite* mySprite;
 	};
- 
+
 .. code-block:: cpp
 	:caption: GameWorld.cpp
 	:name: gameworld_cpp
 	:linenos:
+	:emphasize-lines: 3,7,13
 
 	#include "stdafx.h"
 	#include "GameWorld.h"
@@ -62,5 +64,5 @@ The only thing we need to do is create an instance of the class ``Tga2D::CSprite
 
 
 Thats it! Compile and run and you should see something like this:
- 
+
 .. image:: /images/tutorial-2-1.png
