@@ -40,3 +40,8 @@ My question is not here
 
 Come and talk to us.
 
+
+Everything looks like crap when I resize the window using the window borders
+****************************************************************************
+
+Yes, it will look like crap if your game doesn't handle resizing that way. Don't allow the player to resize the window using borders.
